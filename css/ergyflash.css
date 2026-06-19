@@ -185,7 +185,7 @@ color: #000; }
         
     border: solid 2px #fff;
         background-color:#95c11f;
-    color: #000;
+    color: #fff;
     font-weight: 200;
      text-align: center;
 }
@@ -257,7 +257,7 @@ color: #000; }
         
     border: solid 2px #fff;
         background-color:#289b38;
-    color: #000;
+    color: #fff;
     font-weight: 200;
    
     text-align: center;
@@ -609,3 +609,13 @@ display: inline-flexbox;
 }
 
 ul{margin-bottom: 20px;}
+/*================================================
+Modal
+==================================================*/
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+    .btn{white-space: normal;}
+    .modal-header{display:block}
