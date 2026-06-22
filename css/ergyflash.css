@@ -619,3 +619,5 @@ Modal
   }
     .btn{white-space: normal;}
     .modal-header{display:block}
+    
+    button { cursor: pointer;}
